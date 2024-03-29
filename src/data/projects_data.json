@@ -1,0 +1,47 @@
+{
+  "projects": [
+    {
+      "title": "Tequity Engineerings",
+      "description": "A Engineering machines manufacuring plant in ahmedabad",
+      "imageSrc": "https://res.cloudinary.com/remind-cents-cloud/image/upload/v1708275769/jayraiweb/home/ketk1rhmdmhsgirltbid.png",
+      "link": "https://tequity-engineering.vercel.app/"
+    },
+    {
+      "title": "Astro By Yogesh",
+      "description": "A Ahemdabad's well known astrolger providing astrolger services digitally",
+      "imageSrc": "https://res.cloudinary.com/remind-cents-cloud/image/upload/v1708275769/jayraiweb/home/jrdslikyrgggcztbxv7n.png",
+      "link": "https://astrobyyogesh.com/"
+    },
+    {
+      "title": "XevoSoft",
+      "description": "A Digital agency providing all kinds of digital services",
+      "imageSrc": "https://res.cloudinary.com/remind-cents-cloud/image/upload/v1708275767/jayraiweb/home/lifwgbsoheuycziyklj2.png",
+      "link": "http://xevosoft.com/"
+    },
+
+    {
+      "title": "Best Food Services",
+      "description": "Catering services business taking online orders in ahmedabad",
+      "imageSrc": "https://res.cloudinary.com/remind-cents-cloud/image/upload/v1708275769/jayraiweb/home/cdyjlibd2e811uythcso.png",
+      "link": "https://bestfoodservice.in/"
+    },
+    {
+      "title": "Decent Settlment",
+      "description": "Loan settlement agency solving loan problems for their clients",
+      "imageSrc": "https://res.cloudinary.com/remind-cents-cloud/image/upload/v1708275769/jayraiweb/home/h8xikgdf1mbu9eeqrf5a.png",
+      "link": "https://decentsettlement.com/"
+    },
+    {
+      "title": "Yash Sharma Digital",
+      "description": "Portfolio of a digital marketing freelancer in ahemdabad",
+      "imageSrc": "https://res.cloudinary.com/remind-cents-cloud/image/upload/v1708275769/jayraiweb/home/wucbpzawpkz70lq2s82h.png",
+      "link": "https://yashsharmadigital.com/"
+    },
+    {
+      "title": "Naagnechi furniture",
+      "description": "A Furniture shop making all kind of furnitures in ahemdabad",
+      "imageSrc": "https://res.cloudinary.com/remind-cents-cloud/image/upload/v1709297113/jayraiweb/home/om4v6k2unehyua4s67ia.svg",
+      "link": "https://naagnechifurniture.online/"
+    }
+  ]
+}
