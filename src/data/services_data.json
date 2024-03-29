@@ -1,0 +1,24 @@
+{
+  "services": [
+    {
+      "title": "Business Website Development",
+      "description": "I will provide finest and stunning business websites that will help your business grow online and increase profitability effortlessly.",
+      "image": "https://res.cloudinary.com/remind-cents-cloud/image/upload/v1711711932/jayraiweb/a4p0ljync3dxubv66ddr.svg"
+    },
+    {
+      "title": "E-Commerce Development",
+      "description": "I'll create a user-friendly website for your store and set up safe payment options using custom code with outstanding animations and SEO.",
+      "image": "https://res.cloudinary.com/remind-cents-cloud/image/upload/v1711711932/jayraiweb/f1k4g15hb9h9jxeaw6oo.svg"
+    },
+    {
+      "title": "Wordpress Development",
+      "description": "We'll build you a stunning website that's easy to manage and customize, tailored specifically to your needs. using wordspress templates.",
+      "image": "https://res.cloudinary.com/remind-cents-cloud/image/upload/v1711711932/jayraiweb/tdwxmqakkj3smgtnyobe.svg"
+    },
+    {
+      "title": "Shopify Development",
+      "description": "We'll build you a professional and easy-to-use e-commerce website, equipped with all the tools you need to succeed. From product listings to payment gateways, we've got you covered.",
+      "image": "https://res.cloudinary.com/remind-cents-cloud/image/upload/v1711711932/jayraiweb/ripallwlwqu0cgg44ovx.svg"
+    }
+  ]
+}

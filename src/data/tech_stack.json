@@ -1,0 +1,40 @@
+{
+  "tools": [
+    {
+      "link": "https://res.cloudinary.com/remind-cents-cloud/image/upload/v1711705625/jayraiweb/tech-stack-black-and-white/kvqiqma3053end8bycn9.svg",
+      "name": "Mongo DB"
+    },
+    {
+      "link": "https://res.cloudinary.com/remind-cents-cloud/image/upload/v1711705625/jayraiweb/tech-stack-black-and-white/hg3sqzqfwvb3sf4jyuty.svg",
+      "name": "React JS"
+    },
+    {
+      "link": "https://res.cloudinary.com/remind-cents-cloud/image/upload/v1711705626/jayraiweb/tech-stack-black-and-white/gdx2uqr1ylvqowulgyq2.svg",
+      "name": "Node JS"
+    },
+    {
+      "link": "https://res.cloudinary.com/remind-cents-cloud/image/upload/v1711705625/jayraiweb/tech-stack-black-and-white/v45tcjlw0zeabvyxjeli.svg",
+      "name": "Next JS"
+    },
+    {
+      "link": "https://res.cloudinary.com/remind-cents-cloud/image/upload/v1711705627/jayraiweb/tech-stack-black-and-white/mdbqeosardicryb12myq.svg",
+      "name": "Cloudinary"
+    },
+    {
+      "link": "https://res.cloudinary.com/remind-cents-cloud/image/upload/v1711705627/jayraiweb/tech-stack-black-and-white/q6x7ka23gxagaim8tbo5.svg",
+      "name": "Vercel"
+    },
+    {
+      "link": "https://res.cloudinary.com/remind-cents-cloud/image/upload/v1711705625/jayraiweb/tech-stack-black-and-white/xpbfgt3bu9k1zjainmch.svg",
+      "name": "Tailwind"
+    },
+    {
+      "link": "https://res.cloudinary.com/remind-cents-cloud/image/upload/v1711705625/jayraiweb/tech-stack-black-and-white/set20c1vmnxizqnsmfs7.svg",
+      "name": "JavaScript"
+    },
+    {
+      "link": "https://res.cloudinary.com/remind-cents-cloud/image/upload/v1711708227/jayraiweb/tech-stack-black-and-white/qrtj46kmwpiecwzduzce.svg",
+      "name": "Express JS"
+    }
+  ]
+}
