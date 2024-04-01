@@ -1,17 +1,29 @@
 import React from 'react';
-import SparkleHeading from './SparkleHeading/SparkleHeading';
 import { Button } from './ui/moving-border';
 import Link from 'next/link';
 import { whatsappLink } from '@/data/links';
 import { InfiniteMovingCards } from './ui/infinite-moving-cards';
 import toolsData from '@/data/tech_stack.json';
+import { TypewriterEffectSmooth } from './ui/typewriter-effect';
 
 function TechStack() {
+  const words = [
+    {
+      text: 'My ',
+      className: 'text-4xl md:text-5xl',
+    },
+    {
+      text: 'Tech Stack',
+      className: 'text-blue-500 dark:text-blue-500 text-4xl md:text-5xl',
+    },
+  ];
+
   return (
     <div className="mt-20 md:mt-23">
       {/* heading  */}
-      <SparkleHeading heading={'Tech Stack'} />
-
+      <div className="flex justify-center">
+        <TypewriterEffectSmooth words={words} cursorClassName="h-12" />
+      </div>
       {/* content  */}
       <div className="content w-full dark:bg-black bg-white  dark:bg-grid-white/[0.2] bg-grid-black/[0.2] relative flex flex-col items-center justify-center py-16">
         <div className="">Data to be shown here</div>

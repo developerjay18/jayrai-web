@@ -1,19 +1,30 @@
 'use client';
 
 import React from 'react';
-import { SparklesCore } from './ui/sparkles';
 import { CardBody, CardContainer, CardItem } from './ui/3d-card';
 import Image from 'next/image';
 import Link from 'next/link';
 import projectsData from '@/data/projects_data.json';
-import SparkleHeading from './SparkleHeading/SparkleHeading';
+import { TypewriterEffectSmooth } from './ui/typewriter-effect';
 
 function ProjectsSection() {
+  const words = [
+    {
+      text: 'My ',
+      className: 'text-5xl md:text-auto',
+    },
+    {
+      text: 'Works',
+      className: 'text-blue-500 dark:text-blue-500 text-5xl md:text-auto',
+    },
+  ];
+
   return (
     <div className="mt-20 md:mt-10">
       {/* heading   */}
-      <SparkleHeading heading={'My Works'} />
-
+      <div className="flex justify-center">
+        <TypewriterEffectSmooth words={words} cursorClassName="h-12" />
+      </div>
       {/* content  */}
       <div className="content px-5 md:px-0 flex flex-wrap justify-center md:gap-x-10">
         {projectsData.projects.map((project) => (

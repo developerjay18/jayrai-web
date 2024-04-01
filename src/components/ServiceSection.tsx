@@ -1,16 +1,28 @@
 'use client';
 
 import React from 'react';
-import SparkleHeading from './SparkleHeading/SparkleHeading';
 import { HoverEffect } from './ui/card-hover-effect';
 import servicesData from '@/data/services_data.json';
+import { TypewriterEffectSmooth } from './ui/typewriter-effect';
 
 function ServiceSection() {
+  const words = [
+    {
+      text: 'My ',
+      className: 'text-5xl md:text-auto',
+    },
+    {
+      text: 'Services',
+      className: 'text-blue-500 dark:text-blue-500 text-5xl md:text-auto',
+    },
+  ];
+
   return (
     <div className="mt-20 md:mt-32">
       {/* heading  */}
-      <SparkleHeading heading={'My Services'} />
-
+      <div className="flex justify-center">
+        <TypewriterEffectSmooth words={words} cursorClassName="h-12" />
+      </div>
       {/* content  */}
       <div className="content px-5 md:px-20">
         <HoverEffect items={servicesData.services} />

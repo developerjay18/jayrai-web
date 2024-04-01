@@ -7,22 +7,11 @@ import { Button } from './ui/moving-border';
 import Link from 'next/link';
 import { whatsappLink } from '@/data/links';
 import { SparklesCore } from './ui/sparkles';
+import { AiOutlineWhatsApp } from 'react-icons/ai';
 
 function HeroSection() {
   return (
     <div className="md:h-[45rem] flex flex-col justify-center items-center px-5 md:px-20">
-      {/* <div className="w-full absolute inset-0 h-screen">
-        <SparklesCore
-          id="tsparticlesfullpage"
-          background="transparent"
-          minSize={0.6}
-          maxSize={1.4}
-          particleDensity={100}
-          className="w-full h-full"
-          particleColor="#FFFFFF"
-        />
-      </div> */}
-
       <Spotlight
         className="-top-40 left-0 md:left-60 md:-top-20 hidden md:block"
         fill="white"
@@ -67,14 +56,11 @@ function HeroSection() {
         <div className="mt-8">
           <Button
             borderRadius="1.75rem"
-            className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800 "
+            className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800 hover:bg-white hover:text-black"
           >
             <Link href={whatsappLink} className="items-center flex gap-2 px-5">
-              <span className="hidden md:block">
-                <i className="fa-brands fa-whatsapp fa-2xl "></i>
-              </span>
-              <span className="md:hidden block">
-                <i className="fa-brands fa-whatsapp fa-2xl"></i>
+              <span>
+                <AiOutlineWhatsApp className="text-3xl" />
               </span>
               <span className="text-lg">Whatsapp Now</span>
             </Link>

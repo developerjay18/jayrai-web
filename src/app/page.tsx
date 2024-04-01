@@ -1,3 +1,4 @@
+import ContactSection from '@/components/ContactSection';
 import HeroSection from '@/components/HeroSection';
 import ProjectsSection from '@/components/ProjectsSection';
 import ServiceSection from '@/components/ServiceSection';
@@ -10,6 +11,7 @@ export default function Home() {
       <ProjectsSection />
       <TechStack />
       <ServiceSection />
+      <ContactSection />
     </main>
   );
 }
