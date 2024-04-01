@@ -6,6 +6,7 @@ import {
   AiOutlineWhatsApp,
   AiOutlineInstagram,
   AiFillGithub,
+  AiFillLinkedin,
 } from 'react-icons/ai';
 import { FiPhoneCall } from 'react-icons/fi';
 import Link from 'next/link';
@@ -13,8 +14,8 @@ import { whatsappLink } from '@/data/links';
 
 function Footer() {
   return (
-    <div>
-      <div className="h-[10rem] md:h-[20rem] relative w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
+    <div className="mt-12 md:mt-24">
+      <div className="h-[10rem] relative w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
         <div className="w-full absolute inset-0 h-screen">
           <SparklesCore
             id="tsparticlesfullpage"
@@ -26,9 +27,6 @@ function Footer() {
             particleColor="#FFFFFF"
           />
         </div>
-        <h1 className="md:text-9xl text-5xl font-bold text-center text-white relative z-20 uppercase bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 h-[30rem] flex justify-center items-center">
-          jay rai web
-        </h1>
 
         <div className="footer-tag-line px-5 md:px-20 pb-5 md:pb-2 z-50">
           <div className="social-links pt-4 h-full flex gap-x-6">
@@ -43,6 +41,9 @@ function Footer() {
             </Link>
             <Link href={'https://github.com/developerjay18'} className="">
               <AiFillGithub className="text-4xl md:text-5xl hover:text-blue-500 ease-linear transition" />
+            </Link>
+            <Link href={'https://www.linkedin.com/in/jayrai2003'} className="">
+              <AiFillLinkedin className="text-4xl md:text-5xl hover:text-blue-500 ease-linear transition" />
             </Link>
           </div>
         </div>

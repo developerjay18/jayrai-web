@@ -15,7 +15,7 @@ export default function Navbar({ className }: { className?: string }) {
       )}
     >
       <Menu setActive={setActive}>
-        <Link href={'#home'}>
+        <Link href={'#home'} scroll={true}>
           <MenuItem
             setActive={setActive}
             active={active}
@@ -23,7 +23,7 @@ export default function Navbar({ className }: { className?: string }) {
           ></MenuItem>
         </Link>
 
-        <Link href={'#projects'}>
+        <Link href={'#projects'} scroll={true}>
           <MenuItem
             setActive={setActive}
             active={active}
@@ -31,7 +31,7 @@ export default function Navbar({ className }: { className?: string }) {
           ></MenuItem>
         </Link>
 
-        <Link href={'#contact'}>
+        <Link href={'#contact'} scroll={true}>
           <MenuItem
             setActive={setActive}
             active={active}
@@ -39,7 +39,7 @@ export default function Navbar({ className }: { className?: string }) {
           ></MenuItem>
         </Link>
 
-        <Link href={'#services'}>
+        <Link href={'#services'} scroll={true}>
           <MenuItem
             setActive={setActive}
             active={active}
