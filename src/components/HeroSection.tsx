@@ -11,7 +11,7 @@ import { AiOutlineWhatsApp } from 'react-icons/ai';
 
 function HeroSection() {
   return (
-    <div className="md:h-[45rem] flex flex-col justify-center items-center px-5 md:px-20" id='home'>
+    <div className="md:h-[50rem] flex flex-col justify-center items-center px-5 md:px-20" id='home'>
       <Spotlight
         className="-top-40 left-0 md:left-60 md:-top-20 hidden md:block"
         fill="white"

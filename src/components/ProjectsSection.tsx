@@ -20,7 +20,7 @@ function ProjectsSection() {
   ];
 
   return (
-    <div className="mt-20 md:mt-10" id='projects'>
+    <div className="mt-20 md:mt-0" id='projects'>
       {/* heading   */}
       <div className="flex justify-center">
         <TypewriterEffectSmooth words={words} cursorClassName="h-12" />
