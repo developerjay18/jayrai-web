@@ -10,18 +10,18 @@ function TechStack() {
   const words = [
     {
       text: 'My ',
-      className: 'text-4xl md:text-5xl',
+      className: 'text-5xl md:text-5xl',
     },
     {
       text: 'Tech Stack',
-      className: 'text-blue-500 dark:text-blue-500 text-4xl md:text-5xl',
+      className: 'text-blue-500 dark:text-blue-500 text-5xl md:text-5xl',
     },
   ];
 
   return (
     <div className="mt-20 md:mt-24 max-w-screen overflow-hidden">
       {/* heading  */}
-      <div className="flex justify-center">
+      <div className="flex justify-center mb-5 md:mb-0">
         <TypewriterEffectSmooth words={words} cursorClassName="h-12" />
       </div>
       {/* content  */}

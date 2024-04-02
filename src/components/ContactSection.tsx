@@ -48,7 +48,7 @@ function ContactSection() {
   ];
 
   return (
-    <div className="mt-10 md:mt-24" id='contact'>
+    <div className="mt-10 md:mt-24" id="contact">
       {/* heading   */}
       <div className="flex justify-center">
         <TypewriterEffectSmooth words={words} cursorClassName="h-12" />
@@ -74,14 +74,14 @@ function ContactSection() {
           <div className="hidden md:block bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
             Make your Profit <br />
             <span className="bg-clip-text text-transparent bg-gradient-to-b from-blue-100 to-blue-400">
-              2X OR 3X
+              2X TO 4X
             </span>{' '}
             from your <br /> <span>Business Website</span>
           </div>
           <div className="md:hidden block leading-[3.3rem] bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
-            Make your Profit{' '} <br />
+            Make your Profit <br />
             <span className="bg-clip-text text-transparent bg-gradient-to-b from-blue-100 to-blue-400">
-              2X OR 3X
+              2X TO 4X
             </span>{' '}
             from your Business Website
           </div>

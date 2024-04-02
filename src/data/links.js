@@ -12,7 +12,7 @@ export const contactData = [
     link: whatsappLink,
   },
   {
-    text: 'DM Me on Insta',
+    text: 'Contact on Insta',
     icon: <AiOutlineInstagram className="text-3xl" />,
     link: instaLink,
   },

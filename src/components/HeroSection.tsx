@@ -6,12 +6,11 @@ import { Spotlight } from './ui/Spotlight';
 import { Button } from './ui/moving-border';
 import Link from 'next/link';
 import { whatsappLink } from '@/data/links';
-import { SparklesCore } from './ui/sparkles';
 import { AiOutlineWhatsApp } from 'react-icons/ai';
 
 function HeroSection() {
   return (
-    <div className="md:h-[50rem] flex flex-col justify-center items-center px-5 md:px-20" id='home'>
+    <div className="h-[45rem] md:h-[45rem] flex flex-col justify-center items-center px-5 md:px-20" id='home'>
       <Spotlight
         className="-top-40 left-0 md:left-60 md:-top-20 hidden md:block"
         fill="white"
@@ -32,7 +31,7 @@ function HeroSection() {
                   'Businesses',
                   'Agencies',
                   'Freelancers',
-                  'Show Rooms',
+                  'Show Room',
                   'Local Shops',
                 ],
                 autoStart: true,
