@@ -19,7 +19,7 @@ function TechStack() {
   ];
 
   return (
-    <div className="mt-20 md:mt-24 max-w-screen overflow-hidden">
+    <div className="pt-20 md:pt-24 max-w-screen overflow-hidden bg-black">
       {/* heading  */}
       <div className="flex justify-center mb-5 md:mb-0">
         <TypewriterEffectSmooth words={words} cursorClassName="h-12" />

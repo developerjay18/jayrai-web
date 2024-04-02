@@ -18,7 +18,7 @@ function ServiceSection() {
   ];
 
   return (
-    <div className="mt-20 md:mt-32" id="services">
+    <div className="pt-20 md:pt-32 bg-black" id="services">
       {/* heading  */}
       <div className="flex justify-center">
         <TypewriterEffectSmooth words={words} cursorClassName="h-12" />

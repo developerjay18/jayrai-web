@@ -14,7 +14,7 @@ import { whatsappLink } from '@/data/links';
 
 function Footer() {
   return (
-    <div className="mt-12 md:mt-24">
+    <div className="pt-12 md:pt-24 bg-black">
       <div className="h-[10rem] relative w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
         <div className="w-full absolute inset-0 h-screen">
           <SparklesCore
@@ -31,19 +31,19 @@ function Footer() {
         <div className="footer-tag-line px-5 md:px-20 pb-5 md:pb-2 z-50">
           <div className="social-links pt-4 h-full flex gap-x-6">
             <Link href={whatsappLink} className="">
-              <AiOutlineWhatsApp className="text-4xl md:text-5xl hover:text-blue-500 ease-linear transition" />
+              <AiOutlineWhatsApp className="text-4xl md:text-5xl hover:text-blue-500 ease-linear text-white transition" />
             </Link>
             <Link href={'https://www.instagram.com/jayrai.web'} className="">
-              <AiOutlineInstagram className="text-4xl md:text-5xl hover:text-blue-500 ease-linear transition" />
+              <AiOutlineInstagram className="text-4xl md:text-5xl hover:text-blue-500 ease-linear text-white transition" />
             </Link>
             <Link href={'tel:+916351468706'} className="norder">
-              <FiPhoneCall className="text-4xl md:text-5xl hover:text-blue-500 ease-linear transition" />
+              <FiPhoneCall className="text-4xl md:text-5xl hover:text-blue-500 ease-linear text-white transition" />
             </Link>
             <Link href={'https://github.com/developerjay18'} className="">
-              <AiFillGithub className="text-4xl md:text-5xl hover:text-blue-500 ease-linear transition" />
+              <AiFillGithub className="text-4xl md:text-5xl hover:text-blue-500 ease-linear text-white transition" />
             </Link>
             <Link href={'https://www.linkedin.com/in/jayrai2003'} className="">
-              <AiFillLinkedin className="text-4xl md:text-5xl hover:text-blue-500 ease-linear transition" />
+              <AiFillLinkedin className="text-4xl md:text-5xl hover:text-blue-500 ease-linear text-white transition" />
             </Link>
           </div>
         </div>

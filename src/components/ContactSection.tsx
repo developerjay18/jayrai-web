@@ -48,7 +48,7 @@ function ContactSection() {
   ];
 
   return (
-    <div className="mt-10 md:mt-24" id="contact">
+    <div className="pt-10 md:pt-24 bg-black" id="contact">
       {/* heading   */}
       <div className="flex justify-center">
         <TypewriterEffectSmooth words={words} cursorClassName="h-12" />
