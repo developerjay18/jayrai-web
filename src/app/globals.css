@@ -31,3 +31,13 @@ body {
     text-wrap: balance;
   }
 }
+
+::-webkit-scrollbar {
+  width: 6px;
+  background-color: #2e2e2e;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}

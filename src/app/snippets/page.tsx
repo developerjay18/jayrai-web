@@ -8,7 +8,7 @@ import snippetsData from '@/data/snippets_data.json';
 
 function page() {
   return (
-    <div className="">
+    <div className="max-w-screen overflow-hidden">
       {/* gradeint background */}
       <div
         className="h-[32rem] md:h-[35rem] flex flex-col justify-center items-center px-5 md:px-20 bg-black"
