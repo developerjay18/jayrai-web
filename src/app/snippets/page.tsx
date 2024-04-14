@@ -29,7 +29,7 @@ function page() {
       <div className="snippets-cards mt-10 px-5 md:px-0">
         <div className="md:px-10 flex flex-wrap justify-center gap-4">
           {snippetsData.snippets.map((item: any) => (
-            <div className="w-[30%]" key={item.title}>
+            <div className="md:w-[30%]" key={item.title}>
               <BackgroundGradient
                 className="rounded-[22px]  p-4 sm:p-10 bg-white dark:bg-zinc-900"
                 key={item.title}
