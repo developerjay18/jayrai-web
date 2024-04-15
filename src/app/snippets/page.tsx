@@ -26,7 +26,7 @@ function page() {
       </div>
 
       {/* cards  */}
-      <div className="snippets-cards mt-10 px-5 md:px-0">
+      <div className="snippets-cards mt-10 px-5 md:px-0 bg-black">
         <div className="md:px-10 flex flex-wrap justify-center gap-4">
           {snippetsData.snippets.map((item: any) => (
             <div className="md:w-[30%]" key={item.title}>
