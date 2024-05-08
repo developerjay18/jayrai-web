@@ -42,6 +42,18 @@
       "description": "A Furniture shop making all kind of furnitures in ahemdabad",
       "imageSrc": "https://res.cloudinary.com/remind-cents-cloud/image/upload/v1709297113/jayraiweb/home/om4v6k2unehyua4s67ia.svg",
       "link": "https://naagnechifurniture.online/"
+    },
+    {
+      "title": "Clean Genie Service",
+      "description": "A Cleaning Service Business in South Australia",
+      "imageSrc": "https://res.cloudinary.com/remind-cents-cloud/image/upload/v1715173583/jayraiweb/home/yu51gzcz5ucqco7vcljd.svg",
+      "link": "http://cleangenieservices.com.au/"
+    },
+    {
+      "title": "Invoice Mate",
+      "description": "A web app which stores all Invoice's data digitally",
+      "imageSrc": "https://res.cloudinary.com/remind-cents-cloud/image/upload/v1715173583/jayraiweb/home/leijziifaffozqdhap85.svg",
+      "link": "https://invoice-mate-three.vercel.app/"
     }
   ]
 }
