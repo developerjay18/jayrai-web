@@ -23,6 +23,18 @@
       "description": "A Fancy CSS preloader which can be used while showing loading status to the user on your website.",
       "imgUrl": "https://res.cloudinary.com/remind-cents-cloud/image/upload/v1714284574/jayraiweb/reels-snippets/qoewazezb8pzfk2ksvpf.jpg",
       "link": "https://github.com/developerjay18/snippets/tree/main/cart-preloader"
+    },
+    {
+      "title": "Fancy Login Form",
+      "description": "A highly animated login form which easily catches attention ans creates user interactions.",
+      "imgUrl": "https://res.cloudinary.com/remind-cents-cloud/image/upload/v1716732386/jayraiweb/reels-snippets/vewa5qxbhrgfqsrt07a1.jpg",
+      "link": "https://github.com/developerjay18/snippets/tree/main/otp-form"
+    },
+    {
+      "title": "Cool Gallery Opener",
+      "description": "A cool gallery opener which will be easily used for many diffrent operations too.",
+      "imgUrl": "https://res.cloudinary.com/remind-cents-cloud/image/upload/v1716732387/jayraiweb/reels-snippets/p5yczklwaf5gu3icxwjn.jpg",
+      "link": "https://github.com/developerjay18/snippets/tree/main/gallery-opener"
     }
   ]
 }
