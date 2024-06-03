@@ -91,7 +91,7 @@ export default function Navbar({ className }: { className?: string }) {
                 href="/snippets"
                 className="block py-2 px-3 text-white rounded md:hover:bg-transparent hover:scale-105 md:p-0"
               >
-                snippets
+                Snippets
               </Link>
             </li>
           </ul>

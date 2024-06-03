@@ -132,9 +132,9 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       colors: {
+        themeLightPurple: "#7091e6",
         themePurple: "#3d52a0",
         themeDarkPurple: "#384B94",
-        themeLightPurple: "#7091e6",
       },
     },
   },

@@ -20,7 +20,7 @@ function TechStack() {
 
   return (
     <div
-      className="pt-20 md:pt-20 max-w-screen overflow-hidden bg-[#fff]"
+      className="pt-20 md:py-20 max-w-screen overflow-hidden bg-[#fff]"
       id="tech-stack"
     >
       {/* heading  */}
@@ -33,23 +33,23 @@ function TechStack() {
           <InfiniteMovingCards items={tools} direction="right" speed="slow" />
           <InfiniteMovingCards items={tools2} direction="left" speed="slow" />
         </div>
+      </div>
 
-        <div className="mt-14 text-center">
-          <Button
-            borderRadius="1.75rem"
-            className="bg-themePurple hover:bg-themeDarkPurple text-white transition-colors border-themeLightPurple"
-          >
-            <Link href={whatsappLink} className="items-center flex gap-2 px-5">
-              <span className="hidden md:block">
-                <i className="fa-brands fa-whatsapp fa-2xl "></i>
-              </span>
-              <span className="md:hidden block">
-                <i className="fa-brands fa-whatsapp fa-2xl"></i>
-              </span>
-              <span className="text-lg">Whatsapp Now</span>
-            </Link>
-          </Button>
-        </div>
+      <div className="mt-10 text-center">
+        <Button
+          borderRadius="1.75rem"
+          className="bg-themePurple hover:bg-themeDarkPurple text-white transition-colors border-themeLightPurple"
+        >
+          <Link href={whatsappLink} className="items-center flex gap-2 px-5">
+            <span className="hidden md:block">
+              <i className="fa-brands fa-whatsapp fa-2xl "></i>
+            </span>
+            <span className="md:hidden block">
+              <i className="fa-brands fa-whatsapp fa-2xl"></i>
+            </span>
+            <span className="text-lg">Whatsapp Now</span>
+          </Link>
+        </Button>
       </div>
     </div>
   );

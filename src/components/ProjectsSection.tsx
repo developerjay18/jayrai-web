@@ -11,7 +11,7 @@ function ProjectsSection() {
   const words = [
     {
       text: "My ",
-      className: "text-black dark:text-black md:text-auto",
+      className: "text-black dark:text-black text-5xl",
     },
     {
       text: "Works",
