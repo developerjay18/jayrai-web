@@ -31,7 +31,7 @@ function Footer() {
         <div className="footer-tag-line px-5 md:px-20 pb-5 md:pb-2 z-50">
           <div className="social-links pt-4 h-full flex gap-x-6">
             <Link href={whatsappLink} className="">
-              <AiOutlineWhatsApp className="text-4xl md:text-5xl hover:text-themeDarkPurple  transition-colors ease-linear text-themePurple " />
+              <AiOutlineWhatsApp className="text-4xl md:text-5xl hover:text-themeDarkPurple  transition-colors ease-linear text-themePurple" />
             </Link>
             <Link href={"https://www.instagram.com/jayrai.web"} className="">
               <AiOutlineInstagram className="text-4xl md:text-5xl hover:text-themeDarkPurple  transition-colors ease-linear text-themePurple " />
