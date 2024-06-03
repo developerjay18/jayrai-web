@@ -20,11 +20,12 @@
       "link": "https://bestfoodservice.in/"
     },
     {
-      "title": "Decent Settlment",
-      "description": "Loan settlement agency solving loan problems for their clients",
-      "imageSrc": "https://res.cloudinary.com/remind-cents-cloud/image/upload/v1717393930/jayraiweb/home/wzcz423kiissx10f36bp.svg",
-      "link": "https://decentsettlement.com/"
+      "title": "Clean Genie Service",
+      "description": "A Cleaning Service Business which provides various cleaning services in South Australia",
+      "imageSrc": "https://res.cloudinary.com/remind-cents-cloud/image/upload/v1717435579/jayraiweb/home/ygycz1fxoxbwrmez5xzt.svg",
+      "link": "http://cleangenieservices.com.au/"
     },
+
     {
       "title": "Yash Sharma Digital",
       "description": "Portfolio of a digital marketing freelancer in ahemdabad",
@@ -40,19 +41,19 @@
     {
       "title": "Naagnechi furniture",
       "description": "A Furniture shop making all kind of furnitures in ahemdabad",
-      "imageSrc": "https://res.cloudinary.com/remind-cents-cloud/image/upload/v1709297113/jayraiweb/home/om4v6k2unehyua4s67ia.svg",
+      "imageSrc": "https://res.cloudinary.com/remind-cents-cloud/image/upload/v1717435578/jayraiweb/home/nk8qwnyv4kqdw530bwdx.svg",
       "link": "https://naagnechifurniture.online/"
     },
     {
-      "title": "Clean Genie Service",
-      "description": "A Cleaning Service Business which provides various cleaning services in South Australia",
-      "imageSrc": "https://res.cloudinary.com/remind-cents-cloud/image/upload/v1715173583/jayraiweb/home/yu51gzcz5ucqco7vcljd.svg",
-      "link": "http://cleangenieservices.com.au/"
+      "title": "Decent Settlment",
+      "description": "Loan settlement agency solving loan problems for their clients",
+      "imageSrc": "https://res.cloudinary.com/remind-cents-cloud/image/upload/v1717393930/jayraiweb/home/wzcz423kiissx10f36bp.svg",
+      "link": "https://decentsettlement.com/"
     },
     {
       "title": "Invoice Mate",
       "description": "A web app which stores all Invoice's data digitally & ease the workload of data entry.",
-      "imageSrc": "https://res.cloudinary.com/remind-cents-cloud/image/upload/v1715173583/jayraiweb/home/leijziifaffozqdhap85.svg",
+      "imageSrc": "https://res.cloudinary.com/remind-cents-cloud/image/upload/v1717435572/jayraiweb/home/b8i3pemebfzzmrdrm5no.svg",
       "link": "https://invoice-mate-three.vercel.app/"
     }
   ]
