@@ -27,14 +27,14 @@ export const HoverEffect = ({
       {items.map((item, idx) => (
         <div
           key={item.title}
-          className="relative group  block p-2 h-full w-full"
+          className="relative group block p-2 h-full w-full"
           onMouseEnter={() => setHoveredIndex(idx)}
           onMouseLeave={() => setHoveredIndex(null)}
         >
           <AnimatePresence>
             {hoveredIndex === idx && (
               <motion.span
-                className="absolute inset-0 h-full w-full bg-neutral-200 dark:bg-slate-800/[0.8] block  rounded-3xl"
+                className="absolute inset-0 h-full w-full bg-themeLightPurple  block  rounded-3xl"
                 layoutId="hoverBackground"
                 initial={{ opacity: 0 }}
                 animate={{
@@ -48,7 +48,7 @@ export const HoverEffect = ({
               />
             )}
           </AnimatePresence>
-          <Card>
+          <Card className='bg-white shadow-lg'>
             <Image
               src={item.image}
               alt={item.title}
@@ -61,10 +61,10 @@ export const HoverEffect = ({
               alt={item.title}
               width={60}
               height={60}
-              className="md:hidden block"
+              className="md:hidden block grayscale"
             />
-            <CardTitle className="text-2xl">{item.title}</CardTitle>
-            <CardDescription>{item.description}</CardDescription>
+            <CardTitle className="text-2xl text-black">{item.title}</CardTitle>
+            <CardDescription className='text-slate-600'>{item.description}</CardDescription>
           </Card>
         </div>
       ))}
@@ -82,7 +82,7 @@ export const Card = ({
   return (
     <div
       className={cn(
-        'rounded-2xl h-full w-full p-4 overflow-hidden bg-black border border-transparent dark:border-white/[0.2] group-hover:border-slate-700 relative z-20',
+        'rounded-2xl h-full w-full p-4 overflow-hidden border border-transparent group-hover:border-themeLightPurple relative z-20',
         className
       )}
     >

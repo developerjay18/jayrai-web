@@ -1,24 +1,24 @@
-'use client';
+"use client";
 
-import React from 'react';
-import { HoverEffect } from './ui/card-hover-effect';
-import servicesData from '@/data/services_data.json';
-import { TypewriterEffectSmooth } from './ui/typewriter-effect';
+import React from "react";
+import { HoverEffect } from "./ui/card-hover-effect";
+import servicesData from "@/data/services_data.json";
+import { TypewriterEffectSmooth } from "./ui/typewriter-effect";
 
 function ServiceSection() {
   const words = [
     {
-      text: 'My ',
-      className: 'text-5xl md:text-auto',
+      text: "My ",
+      className: "text-black dark:text-black text-5xl md:text-auto",
     },
     {
-      text: 'Services',
-      className: 'text-blue-500 dark:text-blue-500 text-5xl md:text-auto',
+      text: "Services",
+      className: "text-themePurple dark:text-themePurple text-5xl md:text-auto",
     },
   ];
 
   return (
-    <div className="pt-20 md:pt-32 bg-black" id="services">
+    <div className="pt-20 md:py-20 bg-[#f4f4f4]" id="services">
       {/* heading  */}
       <div className="flex justify-center">
         <TypewriterEffectSmooth words={words} cursorClassName="h-12" />

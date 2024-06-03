@@ -29,8 +29,8 @@ export default function RootLayout({
           defer
         ></script>
       </head>
-      <body className={`${inter.className} dark`}>
-        <Navbar />
+      <body className={`${inter.className} dark scroll-smooth`}>
+        <Navbar/>
         {children}
         <Analytics />
         <SpeedInsights />
