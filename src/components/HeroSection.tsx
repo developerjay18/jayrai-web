@@ -8,9 +8,9 @@ import Link from "next/link";
 import { whatsappLink } from "@/data/links";
 import { AiOutlineWhatsApp } from "react-icons/ai";
 import Image from "next/image";
+import { FaReact } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
 import { FaAngular } from "react-icons/fa";
-import { SiTypescript } from "react-icons/si";
 
 function HeroSection() {
   useEffect(() => {
@@ -51,27 +51,19 @@ function HeroSection() {
         fill="white"
       />
 
-      <div
+      {/* <div
         className={`object absolute left-[14rem] bottom-[14rem]`}
         data-speed="5"
       >
-        <Image
-          src={
-            "https://res.cloudinary.com/remind-cents-cloud/image/upload/v1717476802/jayraiweb/home/db6gek1bsw1khk5nfxep.svg"
-          }
-          alt="moving-image"
-          height={200}
-          width={200}
-          className="object-img -rotate-12"
-        />
-      </div>
+        <FaAngular className="text-9xl text-[#a91915] object-img -rotate-45" />
+      </div> */}
 
       <div className={`object absolute -right-16 bottom-50`} data-speed="5">
         <FaNodeJs className="text-9xl text-green-500 object-img -rotate-45" />
       </div>
 
       <div className={`object absolute -left-20 -top-16`} data-speed="5">
-        <FaAngular className="text-[13rem] text-red-500 object-img rotate-[125deg]" />
+        <FaReact className="text-[14rem] text-[#09a1ff] object-img -rotate-45" />
       </div>
 
       {/* <div className={`object absolute right-[30rem] bottom-[3rem]`} data-speed="5">
