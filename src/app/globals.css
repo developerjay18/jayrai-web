@@ -41,3 +41,17 @@ body {
 ::-webkit-scrollbar-track {
   background: transparent;
 }
+
+/* CSS for object movement  */
+.object {
+  position: absolute;
+  padding: 20px;
+  border-radius: 50%;
+  text-align: center;
+  transition: transform 0.1s;
+}
+
+.object-img {
+  filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.2))
+    drop-shadow(0 6px 6px rgba(0, 0, 0, 0.23)); /* 3D Drop-shadow */
+}

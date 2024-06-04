@@ -7,12 +7,12 @@ const instaLink = `https://www.instagram.com/jayrai.web/?message=${'Hey! I came 
 
 export const contactData = [
   {
-    text: 'Whatsapp Now',
+    text: 'Whatsapp',
     icon: <AiOutlineWhatsApp className="text-3xl" />,
     link: whatsappLink,
   },
   {
-    text: 'Contact on Insta',
+    text: 'Instagram',
     icon: <AiOutlineInstagram className="text-3xl" />,
     link: instaLink,
   },
