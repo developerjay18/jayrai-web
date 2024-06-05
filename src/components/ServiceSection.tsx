@@ -9,18 +9,18 @@ function ServiceSection() {
   const words = [
     {
       text: "My ",
-      className: "text-black dark:text-black text-5xl md:text-auto",
+      className: "text-black dark:text-black text-4xl md:text-5xl",
     },
     {
       text: "Services",
-      className: "text-themePurple dark:text-themePurple text-5xl md:text-auto",
+      className: "text-themePurple dark:text-themePurple text-4xl md:text-5xl",
     },
   ];
 
   return (
-    <div className="pt-20 md:py-20 bg-[#f4f4f4]" id="services">
+    <div className="py-10 md:py-20 bg-white" id="services">
       {/* heading  */}
-      <div className="flex justify-center">
+      <div className="flex justify-center pb-2">
         <TypewriterEffectSmooth words={words} cursorClassName="h-12" />
       </div>
       {/* content  */}

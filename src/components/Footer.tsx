@@ -14,8 +14,8 @@ import { whatsappLink } from "@/data/links";
 
 function Footer() {
   return (
-    <div className="pt-12 md:py-0 md:pt-0 bg-[#f4f4f4]">
-      <div className="h-[10rem] relative w-full bg-[#f4f4f4] flex flex-col items-center justify-center overflow-hidden rounded-md">
+    <div className="pt-0 md:py-0 md:pt-0 bg-[#fff]">
+      <div className="h-[10rem] relative w-full bg-[#fff] flex flex-col items-center justify-center overflow-hidden rounded-md">
         <div className="w-full absolute inset-0 h-screen">
           <SparklesCore
             id="tsparticlesfullpage"

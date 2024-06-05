@@ -10,17 +10,17 @@ function TechStack() {
   const words = [
     {
       text: "My ",
-      className: "text-black dark:text-black text-5xl md:text-5xl",
+      className: "text-black dark:text-black text-4xl md:text-5xl",
     },
     {
       text: "Tech Stack",
-      className: "text-themePurple dark:text-themePurple text-5xl md:text-5xl",
+      className: "text-themePurple dark:text-themePurple text-4xl md:text-5xl",
     },
   ];
 
   return (
     <div
-      className="pt-20 md:py-20 max-w-screen overflow-hidden bg-[#fff]"
+      className="py-10 md:py-20 max-w-screen overflow-hidden bg-[#fff]"
       id="tech-stack"
     >
       {/* heading  */}

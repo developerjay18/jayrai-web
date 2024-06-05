@@ -4,8 +4,13 @@ import React, { useState } from "react";
 import Link from "next/link";
 
 export default function Navbar({ className }: { className?: string }) {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
   return (
-    <nav className="bg-themePurple z-50">
+    <nav className={`bg-themePurple z-50 ${className}`}>
+      {/* for large screens  */}
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <Link
           href="/"
@@ -18,9 +23,10 @@ export default function Navbar({ className }: { className?: string }) {
         <button
           data-collapse-toggle="navbar-default"
           type="button"
-          className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none bg-gray-100"
           aria-controls="navbar-default"
-          aria-expanded="false"
+          aria-expanded={isMenuOpen}
+          onClick={toggleMenu}
         >
           <span className="sr-only">Open main menu</span>
           <svg
@@ -32,20 +38,26 @@ export default function Navbar({ className }: { className?: string }) {
           >
             <path
               stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
               d="M1 1h15M1 7h15M1 13h15"
             />
           </svg>
         </button>
-        <div className="hidden w-full md:block md:w-auto" id="navbar-default">
-          <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg  md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0   dark:border-gray-700">
+        <div
+          className={`${
+            isMenuOpen ? "block" : "hidden"
+          } w-full md:block md:w-auto`}
+          id="navbar-default"
+        >
+          <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-themeLightPurple rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 bg-themeDarkPurple md:bg-themePurple">
             <li>
               <Link
                 href="/"
                 className="block py-2 px-3 text-white rounded md:hover:bg-transparent hover:scale-105 md:p-0"
                 aria-current="page"
+                onClick={toggleMenu}
               >
                 Home
               </Link>
@@ -55,6 +67,7 @@ export default function Navbar({ className }: { className?: string }) {
                 href="#projects"
                 className="block py-2 px-3 text-white rounded md:hover:bg-transparent hover:scale-105 md:p-0 scroll-smooth"
                 aria-current="page"
+                onClick={toggleMenu}
               >
                 Projects
               </Link>
@@ -64,6 +77,7 @@ export default function Navbar({ className }: { className?: string }) {
                 href="#tech-stack"
                 className="block py-2 px-3 text-white rounded md:hover:bg-transparent hover:scale-105 md:p-0 scroll-smooth"
                 aria-current="page"
+                onClick={toggleMenu}
               >
                 Tech Stack
               </Link>
@@ -73,6 +87,7 @@ export default function Navbar({ className }: { className?: string }) {
                 href="#services"
                 className="block py-2 px-3 text-white rounded md:hover:bg-transparent hover:scale-105 md:p-0 scroll-smooth"
                 aria-current="page"
+                onClick={toggleMenu}
               >
                 Services
               </Link>
@@ -82,16 +97,9 @@ export default function Navbar({ className }: { className?: string }) {
                 href="#contact"
                 className="block py-2 px-3 text-white rounded md:hover:bg-transparent hover:scale-105 md:p-0 scroll-smooth"
                 aria-current="page"
+                onClick={toggleMenu}
               >
                 Contact
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/snippets"
-                className="block py-2 px-3 text-white rounded md:hover:bg-transparent hover:scale-105 md:p-0"
-              >
-                Snippets
               </Link>
             </li>
           </ul>

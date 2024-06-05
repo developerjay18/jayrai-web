@@ -22,3 +22,4 @@ export const contactData = [
     link: 'tel:+916351468706',
   },
 ];
+

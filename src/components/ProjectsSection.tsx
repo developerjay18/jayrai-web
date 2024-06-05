@@ -11,16 +11,16 @@ function ProjectsSection() {
   const words = [
     {
       text: "My ",
-      className: "text-black dark:text-black text-5xl",
+      className: "text-black dark:text-black text-4xl md:text-5xl",
     },
     {
       text: "Works",
-      className: "text-themePurple dark:text-themePurple text-5xl md:text-auto",
+      className: "text-themePurple dark:text-themePurple text-4xl md:text-5xl",
     },
   ];
 
   return (
-    <div className="pt-20 md:py-20 bg-[#f4f4f4] text-black" id="projects">
+    <div className="py-10 md:py-20 bg-[#f4f4f4] text-black" id="projects">
       {/* heading   */}
       <div className="flex justify-center">
         <TypewriterEffectSmooth words={words} cursorClassName="h-12" />

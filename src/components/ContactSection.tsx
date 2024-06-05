@@ -1,13 +1,13 @@
 "use client";
 
-import React from "react";
+import React, { useEffect } from "react";
 import { Button } from "./ui/moving-border";
 import Link from "next/link";
 import { contactData } from "@/data/links";
 
 function ContactSection() {
   return (
-    <div className="pt-10 md:py-20 bg-white" id="contact">
+    <div className="py-10 md:py-20 bg-[#f4f4f4] relative" id="contact">
       {/* content  */}
       <div className="content px-5 md:px-20 flex flex-col md:flex-row md:gap-x-8 gap-y-8 md:gap-y-0">
         <div className="text-center md:text-left flex flex-col gap-y-4 md:w-[20%]">
@@ -25,7 +25,7 @@ function ContactSection() {
           ))}
         </div>
         <div className="font-bold mt-5 md:mt-0 md:w-[70%] text-5xl text-left md:text-left md:text-7xl">
-          <div className="hidden md:block bg-clip-text text-transparent bg-gradient-to-b from-black to-neutral-700">
+          <div className="hidden md:block bg-clip-text text-transparent bg-gradient-to-b from-black to-neutral-800">
             Make your Profit <br />
             <span className="bg-clip-text text-transparent bg-gradient-to-b from-[#789CF8] to-themeDarkPurple">
               2X TO 4X

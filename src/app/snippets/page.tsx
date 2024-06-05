@@ -1,12 +1,10 @@
 'use client';
 import React from 'react';
 import { BackgroundGradientAnimation } from '@/components/ui/background-gradient-animation';
-import { CardBody, CardContainer, CardItem } from '@/components/ui/3d-card';
 import Image from 'next/image';
 import Link from 'next/link';
 import snippetsData from '@/data/snippets_data.json';
 import { BackgroundGradient } from '@/components/ui/background-gradient';
-import { IconAppWindow } from '@tabler/icons-react';
 
 function page() {
   return (
@@ -26,12 +24,12 @@ function page() {
       </div>
 
       {/* cards  */}
-      <div className="snippets-cards py-10 px-5 md:px-0 bg-black">
+      <div className="snippets-cards py-10 px-5 md:px-0 bg-white">
         <div className="md:px-10 flex flex-wrap justify-center gap-4">
           {snippetsData.snippets.map((item: any) => (
             <div className="md:w-[30%]" key={item.title}>
               <BackgroundGradient
-                className="rounded-[22px]  p-4 sm:p-10 bg-white dark:bg-zinc-900"
+                className="rounded-[22px]  p-4 sm:p-10 bg-[#f4f4f4]"
                 key={item.title}
               >
                 <Image
