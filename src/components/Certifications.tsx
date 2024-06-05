@@ -8,7 +8,7 @@ import certificates from "@/data/certifications_data.json";
 function Certifications() {
   const words = [
     {
-      text: "Certified",
+      text: "Certified ",
       className: "text-themePurple dark:text-themePurple text-4xl md:text-5xl",
     },
     {

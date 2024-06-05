@@ -48,7 +48,7 @@ export const HoverEffect = ({
               />
             )}
           </AnimatePresence>
-          <Card className='bg-white shadow-lg'>
+          <Card className='bg-[#f4f4f4] shadow-lg'>
             <Image
               src={item.image}
               alt={item.title}
