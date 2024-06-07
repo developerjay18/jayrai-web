@@ -55,6 +55,12 @@
       "description": "A web app which stores all Invoice's data digitally & ease the workload of data entry.",
       "imageSrc": "https://res.cloudinary.com/remind-cents-cloud/image/upload/v1717435572/jayraiweb/home/b8i3pemebfzzmrdrm5no.svg",
       "link": "https://invoice-mate-three.vercel.app/"
+    },
+    {
+      "title": "Elito Batteries",
+      "description": "A Giant Battery company website which provides automative battery products all over the globe.",
+      "imageSrc": "https://res.cloudinary.com/remind-cents-cloud/image/upload/v1717595280/jayraiweb/home/nxxwytvkhnfp26x2hrau.svg",
+      "link": "https://www.elitobatteries.com/"
     }
   ]
 }
